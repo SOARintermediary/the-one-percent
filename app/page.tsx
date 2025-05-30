@@ -168,6 +168,37 @@ export default function Home() {
   </div>
 </section>
 
+<section className="bg-black text-white px-6 py-20 border-t border-gray-800">
+  <div className="max-w-4xl mx-auto text-center">
+    <h2 className="text-4xl font-bold mb-6">Encrypted Intel Drop</h2>
+    <p className="text-lg text-gray-400 mb-10">
+      Glimpses from the vault. The latest signals intercepted from AI, market shifts, and elite conversations.
+    </p>
+
+    <div className="grid gap-6 md:grid-cols-3 text-left">
+      {[
+        "🧬 Quantum Advantage: Why Google quietly filed 17 patents in Q1",
+        "🤖 OpenAI’s Shadow Initiative: What Sam didn’t say on stage",
+        "📉 The Sector Collapse Nobody Is Talking About (yet)",
+      ].map((headline, i) => (
+        <div key={i} className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-white transition">
+          <p className="text-gray-300 text-sm italic mb-2">Redacted Entry #{i + 1}</p>
+          <p className="text-white font-semibold blur-sm hover:blur-none transition duration-300 cursor-pointer">
+            {headline}
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <a
+      href="/intel-drop"
+      className="inline-block mt-10 bg-white text-black px-8 py-4 rounded-full font-semibold hover:bg-gray-200 transition"
+    >
+      Unlock the Feed
+    </a>
+  </div>
+</section>
+
       {/* ✅ POWER SYMBOL: DIGITAL KEY */}
       <footer className="bg-black text-center py-10">
         <div className="flex justify-center">
