@@ -27,6 +27,29 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      <section className="bg-black text-white px-6 py-16 border-t border-gray-800">
+  <div className="max-w-3xl mx-auto text-center">
+    <h2 className="text-4xl font-bold mb-6">Do You Belong?</h2>
+    <p className="text-lg text-gray-400 leading-relaxed">
+      Membership is not bought. It’s earned through intent, innovation, and impact.
+    </p>
+    <ul className="text-left text-gray-300 mt-8 space-y-4 text-md">
+      <li>✔ You operate in silence but influence loudly.</li>
+      <li>✔ You value private counsel over public noise.</li>
+      <li>✔ You build in AI, capital, or cultural leverage.</li>
+      <li>✔ You think long-term — always.</li>
+      <li>✔ You’d rather be in the room no one knows about.</li>
+    </ul>
+    <p className="text-sm text-gray-500 mt-6 italic">If this resonates, you're already one of us.</p>
+  </div>
+</section>
     </>
+
+
+
+
+
+    
   );
 }
