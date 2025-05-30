@@ -153,6 +153,21 @@ export default function Home() {
   </div>
 </section>
 
+<section className="bg-gradient-to-b from-black via-gray-900 to-black text-white px-6 py-20 border-t border-gray-800">
+  <div className="max-w-3xl mx-auto text-center">
+    <h2 className="text-4xl font-bold mb-6">Request Access</h2>
+    <p className="text-lg text-gray-400 mb-10">
+      Entry isn’t automatic. Every application is reviewed manually by our inner gatekeepers.
+    </p>
+    <a
+      href="https://your-access-form-link.com" // replace this with your actual form link or modal trigger
+      className="inline-block bg-white text-black px-10 py-4 rounded-full font-semibold hover:bg-gray-200 transition"
+    >
+      Begin Application
+    </a>
+  </div>
+</section>
+
       {/* ✅ POWER SYMBOL: DIGITAL KEY */}
       <footer className="bg-black text-center py-10">
         <div className="flex justify-center">
