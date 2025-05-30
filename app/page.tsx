@@ -86,6 +86,47 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="bg-black text-white px-6 py-16 border-t border-gray-800">
+  <div className="max-w-3xl mx-auto text-center">
+    <h2 className="text-4xl font-bold mb-4">Encrypted Intel Drop</h2>
+    <p className="text-gray-400 mb-8 italic">
+      ⚠️ Decrypting strategic insight... Access requires elevated clearance.
+    </p>
+
+    <div className="bg-gray-900 border border-gray-700 rounded-xl p-6 text-left">
+      <p className="text-sm text-green-500 font-mono mb-2">[INTEL_001.EXE]</p>
+      <p className="text-gray-300">
+        • Funding alerts: Quiet capital rounds in Dubai's AI sector.<br />
+        • Passport programs: Fast-track Tier 1 citizenship strategies.<br />
+        • Shadow launches: 3 Web3 projects by former Tier 1 founders.
+      </p>
+    </div>
+    
+    <p className="text-gray-500 text-xs mt-4">🔒 Next drop: 72h</p>
+  </div>
+</section>
+
+<section className="bg-black text-white px-6 py-20 border-t border-gray-800">
+  <div className="max-w-5xl mx-auto text-center">
+    <h2 className="text-4xl font-bold mb-6">The Private Dashboard</h2>
+    <p className="text-gray-400 mb-8 text-lg">
+      Members will gain access to a powerful AI-integrated control center —
+      featuring encrypted messaging, curated investment drops, and direct strategy lines.
+    </p>
+
+    <div className="relative">
+      <img
+        src="https://dummyimage.com/1000x500/111/999.png&text=Encrypted+Dashboard+Mockup"
+        alt="Private Dashboard Preview"
+        className="mx-auto rounded-xl shadow-lg opacity-80 hover:opacity-100 transition"
+      />
+      <div className="absolute top-4 right-4 bg-white text-black text-xs px-3 py-1 rounded-full">
+        Coming Soon
+      </div>
+    </div>
+  </div>
+</section>
+
       {/* ✅ POWER SYMBOL: DIGITAL KEY */}
       <footer className="bg-black text-center py-10">
         <div className="flex justify-center">
