@@ -170,7 +170,7 @@ export default function Home() {
 
 <section className="bg-black text-white px-6 py-20 border-t border-gray-800">
   <div className="max-w-4xl mx-auto text-center">
-    <h2 className="text-4xl font-bold mb-6">Encrypted Intel Drop</h2>
+    <h2 className="text-4xl font-bold mb-6">The Member Vault</h2>
     <p className="text-lg text-gray-400 mb-10">
       Glimpses from the vault. The latest signals intercepted from AI, market shifts, and elite conversations.
     </p>
