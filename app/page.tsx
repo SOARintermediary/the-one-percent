@@ -70,6 +70,24 @@ export default function Home() {
     </p>
   </div>
 </section>
+
+<section className="bg-gradient-to-b from-black via-gray-900 to-black text-white px-6 py-24 border-t border-gray-800">
+  <div className="max-w-2xl mx-auto text-center">
+    <h2 className="text-4xl md:text-5xl font-bold mb-6">Apply For Access</h2>
+    <p className="text-lg text-gray-400 mb-8">
+      Membership is not granted — it’s earned. We review each request manually. Expect silence before response.
+    </p>
+    <a
+      href="mailto:access@theonepercent.ai"
+      className="inline-block px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition"
+    >
+      Request Access
+    </a>
+    <p className="text-sm text-gray-500 mt-6 italic">
+      Your submission is encrypted. No follow-ups. No guarantees.
+    </p>
+  </div>
+</section>
     </>
 
 
