@@ -1,21 +1,21 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
-    <>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white px-6 py-12">
-        <div className="text-center max-w-3xl">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Access the Inner Circle
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-400 mb-8">
-            The digital sanctuary for elite entrepreneurs, visionaries & AI-empowered thinkers.
-          </p>
-          <button className="mt-6 px-6 py-3 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition">
-            Request Access
-          </button>
-        </div>
-      </main>
+    <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white px-6 py-12">
+      <div className="text-center max-w-3xl">
+        <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          Access the Inner Circle
+        </h1>
+        <p className="text-xl md:text-2xl text-gray-400 mb-8">
+          The digital sanctuary for elite entrepreneurs, visionaries & AI-empowered thinkers.
+        </p>
+        <button className="mt-6 px-6 py-3 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition">
+          Request Access
+        </button>
+      </div>
 
-      {/* ✅ SECTION 2 – About */}
+      {/* ✅ SECTION 2: ABOUT */}
       <section className="bg-black text-white px-6 py-16">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">About The 1%</h2>
@@ -28,72 +28,77 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-black text-white px-6 py-16 border-t border-gray-800">
-  <div className="max-w-3xl mx-auto text-center">
-    <h2 className="text-4xl font-bold mb-6">Do You Belong?</h2>
-    <p className="text-lg text-gray-400 leading-relaxed">
-      Membership is not bought. It’s earned through intent, innovation, and impact.
-    </p>
-    <ul className="text-left text-gray-300 mt-8 space-y-4 text-md">
-      <li>✔ You operate in silence but influence loudly.</li>
-      <li>✔ You value private counsel over public noise.</li>
-      <li>✔ You build in AI, capital, or cultural leverage.</li>
-      <li>✔ You think long-term — always.</li>
-      <li>✔ You’d rather be in the room no one knows about.</li>
-    </ul>
-    <p className="text-sm text-gray-500 mt-6 italic">If this resonates, you're already one of us.</p>
-  </div>
-</section>
+      {/* ✅ SECTION 3: MEMBER BENEFITS */}
+      <section className="bg-gray-900 text-white px-6 py-16">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-8">Private Member Benefits</h2>
+          <ul className="space-y-6 text-lg text-gray-300">
+            <li>🧠 AI-powered strategic advisory (private prompts & agents)</li>
+            <li>💼 Ultra-curated business deal flow</li>
+            <li>🔐 Access to encrypted thought drops & intel briefings</li>
+            <li>🤝 Invite-only networking with elite operators</li>
+            <li>📍 Offline gatherings in Dubai, London, Monaco & more</li>
+          </ul>
+        </div>
+      </section>
 
-<section className="bg-black text-white px-6 py-16 border-t border-gray-800">
-  <div className="max-w-5xl mx-auto text-center">
-    <h2 className="text-4xl font-bold mb-6">Private Member Benefits</h2>
-    <p className="text-lg text-gray-400 leading-relaxed mb-10">
-      We don’t promise benefits — we deliver results. Access isn’t public. It’s personal.
-    </p>
-    <div className="grid md:grid-cols-3 gap-8 text-left">
-      <div>
-        <h3 className="text-xl font-semibold mb-2">AI-Driven Strategy Calls</h3>
-        <p className="text-gray-400">Tap into a confidential brain trust of founders and futurists operating ahead of the curve.</p>
-      </div>
-      <div>
-        <h3 className="text-xl font-semibold mb-2">Private Deal Flow</h3>
-        <p className="text-gray-400">Off-market opportunities in capital, real estate, IP, and AI ventures curated for impact.</p>
-      </div>
-      <div>
-        <h3 className="text-xl font-semibold mb-2">Encrypted Network Rooms</h3>
-        <p className="text-gray-400">Access to a private layer of communication — no noise, no ego, just signal.</p>
-      </div>
-    </div>
-    <p className="text-sm text-gray-500 mt-10 italic">
-      All access is monitored. Everything is discreet. Your power is your silence.
-    </p>
-  </div>
-</section>
+      {/* ✅ STEP 5: CTA */}
+      <section className="bg-gradient-to-b from-black via-gray-900 to-black text-white px-6 py-24 border-t border-gray-800">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Apply For Access</h2>
+          <p className="text-lg text-gray-400 mb-8">
+            Membership is not granted — it’s earned. We review each request manually. Expect silence before response.
+          </p>
+          <a
+            href="mailto:access@theonepercent.ai"
+            className="inline-block px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition"
+          >
+            Request Access
+          </a>
+          <p className="text-sm text-gray-500 mt-6 italic">
+            Your submission is encrypted. No follow-ups. No guarantees.
+          </p>
+        </div>
+      </section>
 
-<section className="bg-gradient-to-b from-black via-gray-900 to-black text-white px-6 py-24 border-t border-gray-800">
-  <div className="max-w-2xl mx-auto text-center">
-    <h2 className="text-4xl md:text-5xl font-bold mb-6">Apply For Access</h2>
-    <p className="text-lg text-gray-400 mb-8">
-      Membership is not granted — it’s earned. We review each request manually. Expect silence before response.
-    </p>
-    <a
-      href="mailto:access@theonepercent.ai"
-      className="inline-block px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition"
-    >
-      Request Access
-    </a>
-    <p className="text-sm text-gray-500 mt-6 italic">
-      Your submission is encrypted. No follow-ups. No guarantees.
-    </p>
-  </div>
-</section>
-    </>
+      {/* ✅ STEP 6: TESTIMONIALS */}
+      <section className="bg-black text-white px-6 py-20 border-t border-gray-800">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-12">Whispers from the Inside</h2>
+          <div className="grid md:grid-cols-2 gap-10">
+            <blockquote className="bg-gray-900 p-6 rounded-xl border border-gray-700">
+              <p className="text-lg italic text-gray-300">“One idea from The 1% led to a $2M raise and a partnership that changed everything.”</p>
+              <footer className="mt-4 text-sm text-gray-500">— D. Khoury, Tech Founder</footer>
+            </blockquote>
+            <blockquote className="bg-gray-900 p-6 rounded-xl border border-gray-700">
+              <p className="text-lg italic text-gray-300">“It feels like being on the inside of a secret machine built for exponential thinking.”</p>
+              <footer className="mt-4 text-sm text-gray-500">— Anonymous VC</footer>
+            </blockquote>
+            <blockquote className="bg-gray-900 p-6 rounded-xl border border-gray-700">
+              <p className="text-lg italic text-gray-300">“This isn't a club. It's a cheat code.”</p>
+              <footer className="mt-4 text-sm text-gray-500">— L. Evans, Ecom Operator</footer>
+            </blockquote>
+            <blockquote className="bg-gray-900 p-6 rounded-xl border border-gray-700">
+              <p className="text-lg italic text-gray-300">“You won’t find The 1% on Google. And that’s the point.”</p>
+              <footer className="mt-4 text-sm text-gray-500">— J. M., AI Strategist</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
 
-
-
-
-
-    
+      {/* ✅ POWER SYMBOL: DIGITAL KEY */}
+      <footer className="bg-black text-center py-10">
+        <div className="flex justify-center">
+          <Image
+            src="/key-symbol.png"
+            alt="The 1% Key Symbol"
+            width={64}
+            height={64}
+            className="opacity-70 hover:opacity-100 transition"
+          />
+        </div>
+        <p className="text-sm text-gray-600 mt-4">Unlock what others can’t.</p>
+      </footer>
+    </main>
   );
 }
