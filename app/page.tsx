@@ -44,6 +44,32 @@ export default function Home() {
     <p className="text-sm text-gray-500 mt-6 italic">If this resonates, you're already one of us.</p>
   </div>
 </section>
+
+<section className="bg-black text-white px-6 py-16 border-t border-gray-800">
+  <div className="max-w-5xl mx-auto text-center">
+    <h2 className="text-4xl font-bold mb-6">Private Member Benefits</h2>
+    <p className="text-lg text-gray-400 leading-relaxed mb-10">
+      We don’t promise benefits — we deliver results. Access isn’t public. It’s personal.
+    </p>
+    <div className="grid md:grid-cols-3 gap-8 text-left">
+      <div>
+        <h3 className="text-xl font-semibold mb-2">AI-Driven Strategy Calls</h3>
+        <p className="text-gray-400">Tap into a confidential brain trust of founders and futurists operating ahead of the curve.</p>
+      </div>
+      <div>
+        <h3 className="text-xl font-semibold mb-2">Private Deal Flow</h3>
+        <p className="text-gray-400">Off-market opportunities in capital, real estate, IP, and AI ventures curated for impact.</p>
+      </div>
+      <div>
+        <h3 className="text-xl font-semibold mb-2">Encrypted Network Rooms</h3>
+        <p className="text-gray-400">Access to a private layer of communication — no noise, no ego, just signal.</p>
+      </div>
+    </div>
+    <p className="text-sm text-gray-500 mt-10 italic">
+      All access is monitored. Everything is discreet. Your power is your silence.
+    </p>
+  </div>
+</section>
     </>
 
 
