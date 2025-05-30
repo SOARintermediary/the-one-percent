@@ -29,18 +29,44 @@ export default function Home() {
       </section>
 
       {/* ✅ SECTION 3: MEMBER BENEFITS */}
-      <section className="bg-gray-900 text-white px-6 py-16">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Private Member Benefits</h2>
-          <ul className="space-y-6 text-lg text-gray-300">
-            <li>🧠 AI-powered strategic advisory (private prompts & agents)</li>
-            <li>💼 Ultra-curated business deal flow</li>
-            <li>🔐 Access to encrypted thought drops & intel briefings</li>
-            <li>🤝 Invite-only networking with elite operators</li>
-            <li>📍 Offline gatherings in Dubai, London, Monaco & more</li>
-          </ul>
-        </div>
-      </section>
+      <section className="bg-black text-white px-6 py-16 border-t border-gray-800">
+  <div className="max-w-4xl mx-auto text-center">
+    <h2 className="text-4xl font-bold mb-6 tracking-tight">Private Member Benefits</h2>
+    <p className="text-lg text-gray-400 mb-12">
+      Entry unlocks a discreet vault of influence, insight, and invisible leverage. Here's what lies beyond the veil.
+    </p>
+
+    <div className="grid md:grid-cols-2 gap-8 text-left">
+      <div className="bg-gray-900 border border-gray-800 rounded-xl p-6">
+        <h3 className="text-xl font-semibold mb-2">Direct Access</h3>
+        <p className="text-gray-400">
+          Tap into a closed network of top-tier founders, investors, and AI architects. No noise. No middlemen.
+        </p>
+      </div>
+
+      <div className="bg-gray-900 border border-gray-800 rounded-xl p-6">
+        <h3 className="text-xl font-semibold mb-2">Encrypted Intel</h3>
+        <p className="text-gray-400">
+          Receive private drops on market shifts, capital trends, and undisclosed ventures weeks before the public.
+        </p>
+      </div>
+
+      <div className="bg-gray-900 border border-gray-800 rounded-xl p-6">
+        <h3 className="text-xl font-semibold mb-2">Capital Leverage</h3>
+        <p className="text-gray-400">
+          Co-invest alongside influential capital pools. Private rounds, discreet LP entries, and hidden deal flow.
+        </p>
+      </div>
+
+      <div className="bg-gray-900 border border-gray-800 rounded-xl p-6">
+        <h3 className="text-xl font-semibold mb-2">Tactical Counsel</h3>
+        <p className="text-gray-400">
+          Schedule encrypted briefings with ex-intelligence operatives, elite advisors, and AI-powered strategists.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* ✅ STEP 5: CTA */}
       <section className="bg-gradient-to-b from-black via-gray-900 to-black text-white px-6 py-24 border-t border-gray-800">
