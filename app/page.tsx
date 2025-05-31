@@ -15,14 +15,16 @@ export default function Home() {
     >
       {/* Hero Section */}
       <section
-  className="w-full bg-cover bg-center h-screen flex items-center justify-center"
+  className="w-full bg-cover bg-center h-screen flex flex-col items-center justify-center"
   style={{
     backgroundImage:
       "url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0')",
   }}
 >
-  <h1 className="text-5xl md:text-6xl font-bold mb-6">Access the Inner Circle</h1>
-  <p className="text-xl md:text-2xl text-gray-300 mb-8">
+  <h1 className="text-5xl md:text-6xl font-bold mb-6 text-center drop-shadow-lg">
+    Access the Inner Circle
+  </h1>
+  <p className="text-xl md:text-2xl text-gray-300 mb-8 text-center drop-shadow">
     The digital sanctuary for elite entrepreneurs, visionaries & AI-empowered thinkers.
   </p>
   <a
