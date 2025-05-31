@@ -10,7 +10,9 @@ const playfair = Playfair_Display({
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center bg-black text-white px-6 py-12 font-serif">
+    <main
+      className={`flex flex-col items-center justify-center bg-black text-white px-6 py-12 font-serif ${playfair.variable}`}
+    >
       {/* Hero Section */}
       <section
         className="w-full bg-cover bg-center h-screen flex items-center justify-center"
@@ -150,5 +152,16 @@ export default function Home() {
         <div className="bg-black bg-opacity-60 p-10 rounded max-w-2xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Apply For Access</h2>
           <p className="text-lg text-gray-300 mb-8">
-            Membership is
-::contentReference[oaicite:31]{index=31}
+            Membership is strictly limited and by invitation only. If you believe you belong, reach out.
+          </p>
+          <a
+            href="mailto:access@theonepercent.ai"
+            className="mt-6 px-6 py-3 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition"
+          >
+            Request Access
+          </a>
+        </div>
+      </section>
+    </main>
+  );
+}
