@@ -15,25 +15,23 @@ export default function Home() {
     >
       {/* Hero Section */}
       <section
-        className="w-full bg-cover bg-center h-screen flex items-center justify-center"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0')",
-        }}
-      >
-        <div className="bg-black bg-opacity-50 p-10 rounded">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">Access the Inner Circle</h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8">
-            The digital sanctuary for elite entrepreneurs, visionaries & AI-empowered thinkers.
-          </p>
-          <a
-            href="mailto:access@theonepercent.ai"
-            className="mt-6 px-6 py-3 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition"
-          >
-            Request Access
-          </a>
-        </div>
-      </section>
+  className="w-full bg-cover bg-center h-screen flex items-center justify-center"
+  style={{
+    backgroundImage:
+      "url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0')",
+  }}
+>
+  <h1 className="text-5xl md:text-6xl font-bold mb-6">Access the Inner Circle</h1>
+  <p className="text-xl md:text-2xl text-gray-300 mb-8">
+    The digital sanctuary for elite entrepreneurs, visionaries & AI-empowered thinkers.
+  </p>
+  <a
+    href="mailto:access@theonepercent.ai"
+    className="mt-6 px-6 py-3 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition"
+  >
+    Request Access
+  </a>
+</section>
 
       {/* About Section */}
       <section className="bg-black text-white px-6 py-16">
