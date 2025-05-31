@@ -39,11 +39,12 @@ export default function Home() {
       <section className="bg-black text-white px-6 py-16">
         <div className="max-w-3xl mx-auto text-center">
           <Image
-            src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg"
-            alt="Private Jet Interior"
-            width={800}
-            height={500}
-            className="rounded-lg mb-6 mx-auto"
+  src="https://images.unsplash.com/photo-1601987077220-6e1f5c8a8f3b"
+  alt="Private Jet Interior"
+  width={800}
+  height={500}
+  className="rounded-lg mb-6 mx-auto"
+
           />
           <h2 className="text-4xl font-bold mb-6">About The 1%</h2>
           <p className="text-lg text-gray-400 leading-relaxed">
@@ -61,13 +62,16 @@ export default function Home() {
       {/* Member Benefits */}
       <section className="bg-black text-white px-6 py-16 border-t border-gray-800">
         <div className="max-w-4xl mx-auto text-center">
-          <Image
-            src="https://images.unsplash.com/photo-1518546305927-5a8e0f9b8e4e"
-            alt="Gold Theme"
-            width={800}
-            height={500}
-            className="rounded-lg mb-6 mx-auto"
-          />
+     // Gold Theme
+Gold Theme (alternative)
+<Image
+  src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308"
+  alt="Gold Theme"
+  width={800}
+  height={500}
+  className="rounded-lg mb-6 mx-auto"
+
+/>
           <h2 className="text-4xl font-bold mb-6 tracking-tight">Private Member Benefits</h2>
           <p className="text-lg text-gray-400 mb-12">
             Entry unlocks a discreet vault of influence, insight, and invisible leverage. Here's what lies beyond the veil.
@@ -108,13 +112,17 @@ export default function Home() {
       {/* Testimonials */}
       <section className="bg-black text-white px-6 py-20 border-t border-gray-800">
         <div className="max-w-4xl mx-auto">
-          <Image
-            src="https://images.pexels.com/photos/2345678/pexels-photo-2345678.jpeg"
-            alt="Luxury Yacht in Dubai Marina"
-            width={800}
-            height={500}
-            className="rounded-lg mb-6 mx-auto"
-          />
+          
+    // Luxury Yacht in Dubai Marina
+<Image
+  src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+  alt="Luxury Yacht in Dubai Marina"
+  width={800}
+  height={500}
+  className="rounded-lg mb-6 mx-auto"
+  unoptimized
+
+/>
           <h2 className="text-4xl font-bold text-center mb-12">Whispers from the Inside</h2>
           <div className="grid md:grid-cols-2 gap-10">
             <blockquote className="bg-gray-900 p-6 rounded-xl border border-gray-700">
